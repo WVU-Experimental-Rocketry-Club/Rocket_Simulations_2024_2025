@@ -60,13 +60,13 @@
     </BodyTube>
     <BodyTube>
       <PartType>BodyTube</PartType>
-      <Length>60</Length>
+      <Length>66</Length>
       <Diameter>6.23</Diameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
       <RailGuideDiameter>0</RailGuideDiameter>
       <RailGuideHeight>0</RailGuideHeight>
-      <LaunchShoeArea>0</LaunchShoeArea>
+      <LaunchShoeArea>0.25</LaunchShoeArea>
       <Location>78.5</Location>
       <Color>Black</Color>
       <BoattailLength>0</BoattailLength>
@@ -75,19 +75,27 @@
       <Overhang>0</Overhang>
       <Fin>
         <Count>4</Count>
-        <Chord>14</Chord>
+        <Chord>15</Chord>
         <Span>7.25</Span>
-        <SweepDistance>9.5</SweepDistance>
-        <TipChord>3.5</TipChord>
+        <SweepDistance>10</SweepDistance>
+        <TipChord>3</TipChord>
         <Thickness>0.375</Thickness>
         <LERadius>0.075</LERadius>
-        <Location>14</Location>
+        <Location>16</Location>
         <AirfoilSection>Hexagonal</AirfoilSection>
         <FX1>1</FX1>
         <FX3>1</FX3>
       </Fin>
+      <Protuberance>
+        <StreamlinedNoBaseDrag>0</StreamlinedNoBaseDrag>
+        <StreamlinedWithBaseDrag>0</StreamlinedWithBaseDrag>
+        <InclinedPlate1Angle>45</InclinedPlate1Angle>
+        <InclinedPlate1FrontalArea>2</InclinedPlate1FrontalArea>
+        <InclinedPlate2Angle>0</InclinedPlate2Angle>
+        <InclinedPlate2FrontalArea>0</InclinedPlate2FrontalArea>
+      </Protuberance>
     </BodyTube>
-    <Surface>Smooth Paint</Surface>
+    <Surface>Camouflage Paint</Surface>
     <CP>0</CP>
     <ModifiedBarrowman>False</ModifiedBarrowman>
     <Turbulence>False</Turbulence>
@@ -100,11 +108,11 @@
   </RocketDesign>
   <LaunchSite>
     <Altitude>4596</Altitude>
-    <Pressure>25.28</Pressure>
+    <Pressure>0</Pressure>
     <RodAngle>4</RodAngle>
     <RodLength>17</RodLength>
     <Temperature>95</Temperature>
-    <WindSpeed>7</WindSpeed>
+    <WindSpeed>8</WindSpeed>
   </LaunchSite>
   <Recovery>
     <Altitude1>1500</Altitude1>
@@ -125,8 +133,8 @@
     <Simulation>
       <SustainerEngine>O4176  (EX)</SustainerEngine>
       <SustainerLaunchWt>139</SustainerLaunchWt>
-      <SustainerNozzleDiameter>2</SustainerNozzleDiameter>
-      <SustainerCG>95.03</SustainerCG>
+      <SustainerNozzleDiameter>2.8</SustainerNozzleDiameter>
+      <SustainerCG>100</SustainerCG>
       <SustainerIgnitionDelay>0</SustainerIgnitionDelay>
       <Booster1LaunchWt>0</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
@@ -140,11 +148,11 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>51.82731</TimetoApogee>
-      <MaxAltitude>41473.37</MaxAltitude>
-      <MaxVelocity>1918.314</MaxVelocity>
-      <OptimumWt>0</OptimumWt>
-      <OptimumMaxAlt>0</OptimumMaxAlt>
+      <TimetoApogee>45.60835</TimetoApogee>
+      <MaxAltitude>33642.21</MaxAltitude>
+      <MaxVelocity>1821.14</MaxVelocity>
+      <OptimumWt>75.42841</OptimumWt>
+      <OptimumMaxAlt>75.42841</OptimumMaxAlt>
     </Simulation>
     <Simulation>
       <SustainerLaunchWt>138.5684</SustainerLaunchWt>
