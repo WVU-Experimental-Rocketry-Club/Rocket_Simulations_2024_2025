@@ -64,9 +64,9 @@
       <Diameter>6.23</Diameter>
       <LaunchLugDiameter>0</LaunchLugDiameter>
       <LaunchLugLength>0</LaunchLugLength>
-      <RailGuideDiameter>0</RailGuideDiameter>
-      <RailGuideHeight>0</RailGuideHeight>
-      <LaunchShoeArea>0.25</LaunchShoeArea>
+      <RailGuideDiameter>0.5</RailGuideDiameter>
+      <RailGuideHeight>0.56</RailGuideHeight>
+      <LaunchShoeArea>0</LaunchShoeArea>
       <Location>78.5</Location>
       <Color>Black</Color>
       <BoattailLength>0</BoattailLength>
@@ -76,13 +76,13 @@
       <Fin>
         <Count>4</Count>
         <Chord>15</Chord>
-        <Span>7.25</Span>
+        <Span>8</Span>
         <SweepDistance>10</SweepDistance>
         <TipChord>3</TipChord>
         <Thickness>0.375</Thickness>
-        <LERadius>0.075</LERadius>
+        <LERadius>0.025</LERadius>
         <Location>16</Location>
-        <AirfoilSection>Hexagonal</AirfoilSection>
+        <AirfoilSection>Double Wedge</AirfoilSection>
         <FX1>1</FX1>
         <FX3>1</FX3>
       </Fin>
@@ -107,7 +107,7 @@
     <Comments>Includes new fin geometry to remove tip rake angle to allow for more accurate RasAero simluation verification</Comments>
   </RocketDesign>
   <LaunchSite>
-    <Altitude>4596</Altitude>
+    <Altitude>2930</Altitude>
     <Pressure>0</Pressure>
     <RodAngle>4</RodAngle>
     <RodLength>17</RodLength>
@@ -132,9 +132,9 @@
   <SimulationList>
     <Simulation>
       <SustainerEngine>O4176  (EX)</SustainerEngine>
-      <SustainerLaunchWt>139</SustainerLaunchWt>
+      <SustainerLaunchWt>136</SustainerLaunchWt>
       <SustainerNozzleDiameter>2.8</SustainerNozzleDiameter>
-      <SustainerCG>100</SustainerCG>
+      <SustainerCG>101</SustainerCG>
       <SustainerIgnitionDelay>0</SustainerIgnitionDelay>
       <Booster1LaunchWt>0</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
@@ -148,9 +148,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>45.60835</TimetoApogee>
-      <MaxAltitude>33642.21</MaxAltitude>
-      <MaxVelocity>1821.14</MaxVelocity>
+      <TimetoApogee>44.85848</TimetoApogee>
+      <MaxAltitude>33013.2</MaxAltitude>
+      <MaxVelocity>1835.926</MaxVelocity>
       <OptimumWt>75.42841</OptimumWt>
       <OptimumMaxAlt>75.42841</OptimumMaxAlt>
     </Simulation>
