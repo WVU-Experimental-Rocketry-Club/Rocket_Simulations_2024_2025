@@ -1,5 +1,7 @@
 ; Exported from BurnSim 3.3.9.0 (www.burnsim.com)
-O4176 152 1168 0 19.404 34.15 EX
+; February 2025 Version
+; Uses measured hardware weight 
+O4176v3 152 1168 0 19.404 33.013 WVUER2024-2025
    0.01 3787.04
    0.21 3857.932
    0.41 3926.041
